@@ -16,6 +16,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2C3t5E9eFJkaqW7C4VCKK1XdOYE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LearnSwithEvn/test_swithevn.py" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -117,11 +118,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_more_agreement.test_more_response" />
       <item itemvalue="Python tests.pytest for LearnAuthentication.test_auth_cookie" />
       <item itemvalue="Python tests.pytest for LearnAuthentication.test_auth_cookie.TestAuth" />
-      <item itemvalue="Python tests.pytest for test_auth_token.TestTokenAuth.test_token" />
       <item itemvalue="Python tests.pytest for test_auth.TestTokenAuth.test_token" />
+      <item itemvalue="Python tests.pytest for test_auth_token.TestTokenAuth.test_token" />
+      <item itemvalue="Python tests.pytest for test_more_agreement.test_more_response" />
     </list>
     <recent_temporary>
       <list>

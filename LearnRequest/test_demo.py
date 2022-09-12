@@ -38,6 +38,16 @@ class TestGet:
         r = requests.post("https://httpbin.testing-studio.com/post", files=files, proxies=proxies, verify=False)
         print(r.json())
 
+    def test_cookies(self):
+        headers = {
+            "User_Agent": "huangjia"
+        }
+        cookie = {
+            "ZK": 'WJK'
+        }
+        r = requests.get("https://httpbin.testing-studio.com/cookies", headers=headers, cookies=cookie)
+        print(r.request.headers)
+
 
 '''
     def test_02(self):
@@ -115,15 +125,7 @@ class TestGet:
         r = requests.get("https://httpbin.testing-studio.com/cookies", headers=headers)
         print(r.request.headers)
 
-    def test_cookies(self):
-        headers = {
-            "User_Agent": "huangjia"
-        }
-        cookie = {
-            "ZK": 'WJK'
-        }
-        r = requests.get("https://httpbin.testing-studio.com/cookies", headers=headers, cookies=cookie)
-        print(r.request.headers)
+
 
 
     def test_from(self):
